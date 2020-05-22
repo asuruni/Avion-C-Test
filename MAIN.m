@@ -19,7 +19,7 @@ clc;
 
 %% Itérations:
 %Wingspan; en in
-iter.b.min = 80;
+iter.b.min = 70;
 iter.b.max = 120;
 iter.b.delta = 20;
 iter.b.nb = (iter.b.max - iter.b.min)/iter.b.delta;
