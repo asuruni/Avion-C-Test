@@ -1,5 +1,5 @@
 function resultats = analyse(etude, aero, geo)
-%Test github et encore
+%Test github et encore struct
 %% Recup
 
 %variables pour folders
