@@ -9,8 +9,11 @@
 
 %res = quoi(a);
 
-a={3 1;5 0; 1 0; 1 1; 4 1};
+% a={3 1;5 0; 1 0; 1 1; 4 1};
+% 
+% [b d] = max([a{:,1}].*[a{:,2}]);
+% disp(b)
+% disp(d)
 
-[b d] = max([a{:,1}].*[a{:,2}]);
-disp(b)
-disp(d)
+load(fullfile('C:\Users\fannf\Documents\GitHub\mat files','Moy_JMB1210_7.45_0.82617_0.mat'));
+
