@@ -19,7 +19,7 @@ clc;
 
 %% Itérations:
 %Wingspan; en in
-iter.b.min = 70;
+iter.b.min = 100;
 iter.b.max = 120;
 iter.b.delta = 20;
 iter.b.nb = (iter.b.max - iter.b.min)/iter.b.delta;
@@ -27,7 +27,7 @@ iter.b.nb = (iter.b.max - iter.b.min)/iter.b.delta;
 %Payload; en lbs
 iter.pl.min = 0;
 iter.pl.max = 3; 
-iter.pl.delta = 1;
+iter.pl.delta = 3;
 iter.pl.nb = (iter.b.max - iter.b.min)/iter.b.delta;
 
 %Ballons
