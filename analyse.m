@@ -17,6 +17,7 @@ aero.wing.AoA_Cd_min = donnees_profil{1}(4) * ((2*pi)/360);
 aero.wing.Pente_Cl_AoA = donnees_profil{1}(10) * (360/(2*pi));
 aero.wing.ZeroLiftAoA= donnees_profil{1}(11)* ((2*pi)/360);
 
+%Je te vois !
 %donnees_profil{1}(1)=Cl_max;
 %donnees_profil{1}(2)=min(AoA_Cl_max);
 %donnees_profil{1}(3)=Cd_min;
